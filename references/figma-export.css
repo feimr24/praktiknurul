@@ -1,0 +1,4305 @@
+/* 01 / Landing page • Desktop */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: relative;
+width: 1440px;
+height: 3299px;
+
+background: #FFFFFF;
+
+
+/* Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 16px 104px;
+
+width: 1440px;
+height: 130px;
+
+background: #FAFCF9;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* logo */
+
+width: 234px;
+height: 98px;
+
+background: url(Original logo image 2.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Navigation */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 500px;
+height: 52px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Nav / Layanan */
+
+width: 64px;
+height: 24px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #526B68;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Nav / Jam praktik */
+
+width: 87px;
+height: 24px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #526B68;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Nav / Lokasi */
+
+width: 50px;
+height: 24px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #526B68;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* CTA / Hubungi kami */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 24px;
+gap: 8px;
+
+width: 141px;
+height: 52px;
+
+background: #007D72;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Star */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+width: 93px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* X */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Hero */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 1440px;
+height: 704px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Hero / foto editorial */
+
+width: 1440px;
+height: 704px;
+
+background: linear-gradient(180deg, #FCFDFB 0%, #EDF6EF 48%, #CDE6DD 100%);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Halo foto */
+
+position: absolute;
+width: 670px;
+height: 670px;
+left: 764px;
+top: 132px;
+
+background: #E3F0E6;
+
+
+/* Garis halo */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 698px;
+height: 698px;
+left: 746px;
+top: 114px;
+
+border: 1.2px solid #D0E5DA;
+
+
+/* Foto asli • potongan siluet */
+
+position: absolute;
+width: 1253.91px;
+height: 1881.6px;
+left: 450px;
+top: -448px;
+
+
+
+/* Masker vektor foto asli */
+
+position: absolute;
+width: 1253.91px;
+height: 1881.6px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 28.25%;
+right: 22.49%;
+top: 28.59%;
+bottom: 14.06%;
+
+background: #FFFFFF;
+
+
+/* Foto dr. Nurul Ilmi Rahmatullah */
+
+position: absolute;
+width: 1253.91px;
+height: 1881.6px;
+left: 0px;
+top: 0px;
+
+background: url(.jpg);
+
+
+/* Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 12px;
+gap: 10px;
+
+position: absolute;
+width: 191px;
+height: 28px;
+left: 104px;
+top: 45px;
+
+background: #276B61;
+border-radius: 40px;
+
+
+/* Eyebrow */
+
+width: 167px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+letter-spacing: 1.35px;
+
+color: #F8FBF8;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Hero Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 680px;
+height: 474px;
+left: 104px;
+top: 91px;
+
+
+
+/* Top */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 680px;
+height: 369px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 680px;
+height: 293px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 680px;
+height: 223px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Headline / utama */
+
+width: 680px;
+height: 138px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 69px;
+/* or 108% */
+letter-spacing: -2.6px;
+
+color: #123637;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Headline / aksen */
+
+width: 680px;
+height: 85px;
+
+font-family: 'Newsreader';
+font-style: italic;
+font-weight: 400;
+font-size: 82px;
+line-height: 85px;
+/* identical to box height, or 104% */
+letter-spacing: -2px;
+
+color: #006C65;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Pengantar */
+
+width: 500px;
+height: 54px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* or 150% */
+
+color: #536B66;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* CTA */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 407px;
+height: 52px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* CTA / Tanya via WhatsApp */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 18px 6px 6px;
+gap: 10px;
+
+width: 207px;
+height: 50px;
+
+background: #0C4040;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Lingkaran ikon */
+
+width: 38px;
+height: 38px;
+
+background: #FFFFFF;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: calc(50% - 18px/2);
+top: calc(50% - 18px/2);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 26.32%;
+right: 26.32%;
+top: 26.32%;
+bottom: 26.32%;
+
+background: #006C65;
+
+
+/* Label tombol */
+
+width: 135px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* CTA / Lihat jam praktik */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 18px 6px 6px;
+gap: 10px;
+
+width: 184px;
+height: 52px;
+
+background: #FFFFFF;
+border: 1px solid #D7E6DE;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Lingkaran ikon */
+
+width: 38px;
+height: 38px;
+
+background: #EAF5EE;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Lucide / Clock3 */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 10px;
+top: 10px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.2px solid #0C4040;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 33.33%;
+top: 25%;
+bottom: 50%;
+
+border: 1.2px solid #0C4040;
+
+
+/* Label tombol */
+
+width: 110px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: #123637;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Pembatas informasi */
+
+width: 510px;
+height: 1px;
+
+background: #BAD8CB;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Bot */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+width: 565px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Dewasa */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 13px;
+
+width: 258px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Badge / Stethoscope */
+
+width: 40px;
+height: 40px;
+
+background: #FFFFFF;
+border-radius: 14px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Lucide / Stethoscope */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 10px;
+top: 10px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 45.83%;
+right: 54.17%;
+top: 8.33%;
+bottom: 83.33%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 79.17%;
+top: 8.33%;
+bottom: 83.33%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 41.67%;
+top: 12.5%;
+bottom: 37.5%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 16.67%;
+top: 50%;
+bottom: 12.5%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 75%;
+right: 8.33%;
+top: 33.33%;
+bottom: 50%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 3px;
+
+width: 205px;
+height: 39px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Pasien */
+
+width: 205px;
+height: 19px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 19px;
+/* identical to box height, or 127% */
+
+color: #123637;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Keterangan pasien */
+
+width: 205px;
+height: 17px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height, or 131% */
+
+color: #536B66;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Loc */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 13px;
+
+width: 293px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Badge / MapPin */
+
+width: 40px;
+height: 40px;
+
+background: #FFFFFF;
+border-radius: 14px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Lucide / MapPin */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 10px;
+top: 10px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 29.17%;
+bottom: 45.83%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 3px;
+
+width: 240px;
+height: 39px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Wilayah */
+
+width: 240px;
+height: 19px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 19px;
+/* identical to box height, or 127% */
+
+color: #123637;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Keterangan wilayah */
+
+width: 240px;
+height: 17px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height, or 131% */
+
+color: #536B66;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Praktik mandiri */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+width: 178px;
+height: 54px;
+left: 1190px;
+top: 170px;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+border-radius: 16px;
+
+
+/* Badge / MapPin */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 10px;
+top: 11px;
+
+background: #EAF5EE;
+border-radius: 11px;
+
+
+/* Lucide / MapPin */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 8px;
+top: 8px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.06667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 29.17%;
+bottom: 45.83%;
+
+border: 1.06667px solid #006C65;
+
+
+/* Judul */
+
+position: absolute;
+width: 116px;
+height: 16px;
+left: 50px;
+top: 10px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+color: #123637;
+
+
+
+/* Keterangan */
+
+position: absolute;
+width: 116px;
+height: 14px;
+left: 50px;
+top: 28px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 14px;
+/* identical to box height, or 140% */
+
+color: #536B66;
+
+
+
+/* dr. Nurul Ilmi Rahmatullah */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 359px;
+height: 69px;
+left: 961px;
+top: 564.41px;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+box-shadow: 0px 10px 26px rgba(5, 51, 41, 0.12);
+border-radius: 20px;
+
+
+/* Badge / ClipboardCheck */
+
+position: absolute;
+width: 42px;
+height: 42px;
+left: 14px;
+top: 14.59px;
+
+background: #EAF5EE;
+border-radius: 14px;
+
+
+/* Lucide / ClipboardCheck */
+
+position: absolute;
+width: 21px;
+height: 21px;
+left: 11px;
+top: 11px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 33.33%;
+top: 8.33%;
+bottom: 75%;
+
+border: 1.4px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 16.67%;
+bottom: 8.33%;
+
+border: 1.4px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 50%;
+bottom: 33.33%;
+
+border: 1.4px solid #006C65;
+
+
+/* Judul */
+
+position: absolute;
+width: 279px;
+height: 21px;
+left: 68px;
+top: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 21px;
+/* identical to box height, or 140% */
+
+color: #123637;
+
+
+
+/* Keterangan */
+
+position: absolute;
+width: 279px;
+height: 17px;
+left: 68px;
+top: 39px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 17px;
+/* identical to box height, or 142% */
+
+color: #536B66;
+
+
+
+/* SIP */
+
+position: absolute;
+visibility: hidden;
+width: 279px;
+height: 15px;
+left: 68px;
+top: 57.59px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height, or 150% */
+
+color: #536B66;
+
+
+
+/* Layanan */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px 0px;
+
+width: 1440px;
+height: 949px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Layanan / bento */
+
+width: 1440px;
+height: 901px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Eyebrow */
+
+position: absolute;
+width: 1232px;
+height: 16px;
+left: 104px;
+top: 67px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+letter-spacing: 1.35px;
+
+color: #276B61;
+
+
+
+/* Judul layanan */
+
+position: absolute;
+width: 1232px;
+height: 53px;
+left: 104px;
+top: 96px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 43px;
+line-height: 53px;
+/* identical to box height, or 123% */
+text-align: center;
+letter-spacing: -1.6px;
+
+color: #123637;
+
+
+
+/* Pengantar layanan */
+
+position: absolute;
+width: 1232px;
+height: 22px;
+left: 104px;
+top: 159px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+text-align: center;
+
+color: #536B66;
+
+
+
+/* Bento / Konsultasi umum */
+
+position: absolute;
+width: 400px;
+height: 314px;
+left: 520px;
+top: 216px;
+
+background: linear-gradient(90deg, #E1EEDB 0%, #C8E4D0 65%, #A4CFB8 100%);
+border-radius: 24px;
+
+
+/* Aksen ilustrasi */
+
+position: absolute;
+width: 240px;
+height: 240px;
+left: 205px;
+top: 68px;
+
+background: #B6D9C2;
+
+
+/* Kontur ilustrasi */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 268px;
+height: 268px;
+left: 190px;
+top: 53px;
+
+border: 1px solid #9ECAB2;
+
+
+/* Ilustrasi / Stetoskop dan balon percakapan */
+
+position: absolute;
+width: 233px;
+height: 233px;
+left: 169px;
+top: 89px;
+
+background: url(.png);
+
+
+/* Layanan utama */
+
+position: absolute;
+width: 122px;
+height: 27px;
+left: 24px;
+top: 20px;
+
+background: #F3F9EF;
+border-radius: 99px;
+
+
+/* Label */
+
+position: absolute;
+width: 122px;
+height: 15px;
+left: 0px;
+top: 6px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height, or 150% */
+text-align: center;
+letter-spacing: 0.85px;
+
+color: #006C65;
+
+
+
+/* Judul layanan */
+
+position: absolute;
+width: 350px;
+height: 38px;
+left: 24px;
+top: 63px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 31px;
+line-height: 38px;
+/* identical to box height, or 123% */
+letter-spacing: -0.85px;
+
+color: #123637;
+
+
+
+/* Deskripsi layanan */
+
+position: absolute;
+width: 162px;
+height: 63px;
+left: 24px;
+top: 118px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* or 150% */
+
+color: #0C4040;
+
+
+
+/* CTA / Tanya konsultasi */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 13px 6px 6px;
+gap: 8px;
+
+position: absolute;
+width: 161px;
+height: 44px;
+left: 24px;
+top: 235px;
+
+background: #0C4040;
+border-radius: 99px;
+
+
+/* Lingkaran ikon */
+
+width: 32px;
+height: 32px;
+
+background: #FFFFFF;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: calc(50% - 18px/2);
+top: calc(50% - 18px/2);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 21.88%;
+right: 21.88%;
+top: 21.88%;
+bottom: 21.88%;
+
+background: #006C65;
+
+
+/* Label tombol */
+
+width: 102px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Bento / Perawatan luka */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 400px;
+height: 204px;
+left: 104px;
+top: 216px;
+
+background: #FAFAFA;
+border: 1px solid #E4EEE7;
+border-radius: 20px;
+
+
+/* Badge / Bandage */
+
+position: absolute;
+width: 43px;
+height: 43px;
+left: 24px;
+top: 24px;
+
+background: #DDEFE4;
+border-radius: 15px;
+
+
+/* Lucide / Bandage */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 11px;
+top: 11px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 41.67%;
+right: 58.29%;
+top: 41.71%;
+bottom: 58.29%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 41.67%;
+right: 58.29%;
+top: 58.38%;
+bottom: 41.62%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 58.33%;
+right: 41.62%;
+top: 41.71%;
+bottom: 58.29%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 58.33%;
+right: 41.62%;
+top: 58.38%;
+bottom: 41.62%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 75%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 75%;
+top: 25%;
+bottom: 25%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 25%;
+bottom: 25%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Judul layanan */
+
+position: absolute;
+width: 352px;
+height: 27px;
+left: 24px;
+top: 83px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 27px;
+/* identical to box height, or 129% */
+letter-spacing: -0.4px;
+
+color: #123637;
+
+
+
+/* Deskripsi layanan */
+
+position: absolute;
+width: 352px;
+height: 44px;
+left: 24px;
+top: 119px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+color: #536B66;
+
+
+
+/* Bento / Tindakan minor */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 400px;
+height: 204px;
+left: 104px;
+top: 436px;
+
+background: #FAFAFA;
+border: 1px solid #E4EEE7;
+border-radius: 20px;
+
+
+/* Badge / Scissors */
+
+position: absolute;
+width: 43px;
+height: 43px;
+left: 24px;
+top: 24px;
+
+background: #DDEFE4;
+border-radius: 15px;
+
+
+/* Lucide / Scissors */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 11px;
+top: 11px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 62.5%;
+top: 12.5%;
+bottom: 62.5%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.83%;
+right: 50%;
+top: 33.83%;
+bottom: 50%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.83%;
+right: 16.67%;
+top: 16.67%;
+bottom: 33.83%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 62.5%;
+top: 62.5%;
+bottom: 12.5%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 61.67%;
+right: 16.67%;
+top: 61.67%;
+bottom: 16.67%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Judul layanan */
+
+position: absolute;
+width: 352px;
+height: 27px;
+left: 24px;
+top: 83px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 27px;
+/* identical to box height, or 129% */
+letter-spacing: -0.4px;
+
+color: #123637;
+
+
+
+/* Deskripsi layanan */
+
+position: absolute;
+width: 352px;
+height: 44px;
+left: 24px;
+top: 119px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+color: #536B66;
+
+
+
+/* Bento / Irigasi telinga */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 400px;
+height: 204px;
+left: 520px;
+top: 546px;
+
+background: #FAFAFA;
+border: 1px solid #E4EEE7;
+border-radius: 20px;
+
+
+/* Badge / Ear */
+
+position: absolute;
+width: 43px;
+height: 43px;
+left: 24px;
+top: 24px;
+
+background: #DDEFE4;
+border-radius: 15px;
+
+
+/* Lucide / Ear */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 11px;
+top: 11px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 20.83%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 41.67%;
+right: 37.5%;
+top: 25%;
+bottom: 43.75%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Judul layanan */
+
+position: absolute;
+width: 352px;
+height: 27px;
+left: 24px;
+top: 83px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 27px;
+/* identical to box height, or 129% */
+letter-spacing: -0.4px;
+
+color: #123637;
+
+
+
+/* Deskripsi layanan */
+
+position: absolute;
+width: 352px;
+height: 44px;
+left: 24px;
+top: 119px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+color: #536B66;
+
+
+
+/* Bento / Terapi nebulizer */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 400px;
+height: 204px;
+left: 936px;
+top: 216px;
+
+background: #FAFAFA;
+border: 1px solid #E4EEE7;
+border-radius: 20px;
+
+
+/* Badge / Wind */
+
+position: absolute;
+width: 43px;
+height: 43px;
+left: 24px;
+top: 24px;
+
+background: #DDEFE4;
+border-radius: 15px;
+
+
+/* Lucide / Wind */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 11px;
+top: 11px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 33.33%;
+top: 66.67%;
+bottom: 16.67%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 29.17%;
+bottom: 50%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 45.83%;
+top: 16.67%;
+bottom: 66.67%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Judul layanan */
+
+position: absolute;
+width: 352px;
+height: 27px;
+left: 24px;
+top: 83px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 27px;
+/* identical to box height, or 129% */
+letter-spacing: -0.4px;
+
+color: #123637;
+
+
+
+/* Deskripsi layanan */
+
+position: absolute;
+width: 352px;
+height: 22px;
+left: 24px;
+top: 119px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+color: #536B66;
+
+
+
+/* Bento / Layanan suntik */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 400px;
+height: 204px;
+left: 936px;
+top: 436px;
+
+background: #FAFAFA;
+border: 1px solid #E4EEE7;
+border-radius: 20px;
+
+
+/* Badge / Syringe */
+
+position: absolute;
+width: 43px;
+height: 43px;
+left: 24px;
+top: 24px;
+
+background: #DDEFE4;
+border-radius: 15px;
+
+
+/* Lucide / Syringe */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 11px;
+top: 11px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 75%;
+right: 8.33%;
+top: 8.33%;
+bottom: 75%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 70.83%;
+right: 16.67%;
+top: 16.67%;
+bottom: 70.83%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 16.46%;
+right: 20.83%;
+top: 20.83%;
+bottom: 16.46%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 45.83%;
+top: 45.83%;
+bottom: 37.5%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 79.17%;
+top: 79.17%;
+bottom: 8.33%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 58.33%;
+right: 16.67%;
+top: 16.67%;
+bottom: 58.33%;
+
+border: 1.46667px solid #006C65;
+
+
+/* Judul layanan */
+
+position: absolute;
+width: 352px;
+height: 27px;
+left: 24px;
+top: 83px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 27px;
+/* identical to box height, or 129% */
+letter-spacing: -0.4px;
+
+color: #123637;
+
+
+
+/* Deskripsi layanan */
+
+position: absolute;
+width: 352px;
+height: 44px;
+left: 24px;
+top: 119px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+color: #536B66;
+
+
+
+/* CTA / Tanyakan layanan */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 18px 6px 6px;
+gap: 10px;
+
+position: absolute;
+width: 190px;
+height: 50px;
+left: 625px;
+top: 774px;
+
+background: #0C4040;
+border-radius: 99px;
+
+
+/* Lingkaran ikon */
+
+width: 38px;
+height: 38px;
+
+background: #FFFFFF;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Lucide / ArrowUpRight */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 10px;
+top: 10px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 29.17%;
+bottom: 29.17%;
+
+border: 1.2px solid #0C4040;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 29.17%;
+bottom: 29.17%;
+
+border: 1.2px solid #0C4040;
+
+
+/* Label tombol */
+
+width: 118px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Catatan layanan */
+
+position: absolute;
+width: 1232px;
+height: 20px;
+left: 104px;
+top: 838px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+text-align: center;
+
+color: #536B66;
+
+
+
+/* Jam praktik */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 40px 0px;
+
+width: 1440px;
+height: 568px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Panel jadwal */
+
+width: 1232px;
+height: 488px;
+
+background: linear-gradient(90deg, #0B3C3E 0%, #176559 100%);
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Aksen panel */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 382px;
+height: 382px;
+left: 1004px;
+top: -183px;
+
+border: 1.2px solid #488C7C;
+
+
+/* Aksen panel 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 342px;
+height: 342px;
+left: 1024px;
+top: -163px;
+
+border: 1.2px solid #488C7C;
+
+
+/* Eyebrow */
+
+position: absolute;
+width: 1148px;
+height: 16px;
+left: 42px;
+top: 38px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+letter-spacing: 1.35px;
+
+color: #DDF0AE;
+
+
+
+/* Judul jadwal */
+
+position: absolute;
+width: 1148px;
+height: 52px;
+left: 42px;
+top: 63px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 42px;
+line-height: 52px;
+/* identical to box height, or 124% */
+letter-spacing: -0.8px;
+
+color: #FFFFFF;
+
+
+
+/* Pengantar jadwal */
+
+position: absolute;
+width: 1148px;
+height: 20px;
+left: 42px;
+top: 127px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+color: #D6EBE2;
+
+
+
+/* Zona waktu */
+
+position: absolute;
+visibility: hidden;
+width: 175px;
+height: 38px;
+left: 1015px;
+top: 49px;
+
+background: #246457;
+border-radius: 99px;
+
+
+/* Lucide / Clock3 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 13px;
+top: 11px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.06667px solid #E4F1E8;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 33.33%;
+top: 25%;
+bottom: 50%;
+
+border: 1.06667px solid #E4F1E8;
+
+
+/* Zona waktu */
+
+position: absolute;
+width: 134px;
+height: 18px;
+left: 38px;
+top: 10px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 18px;
+/* identical to box height, or 164% */
+
+color: #E4F1E8;
+
+
+
+/* Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+position: absolute;
+width: 1148px;
+height: 180px;
+left: 42px;
+top: 180px;
+
+
+
+/* Jadwal / Senin, Selasa, Sabtu */
+
+width: 425px;
+height: 180px;
+
+background: #EEF7E8;
+border-radius: 18px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 365px;
+height: 40px;
+left: 24px;
+top: 18px;
+
+
+
+/* Badge / Clock3 */
+
+width: 40px;
+height: 40px;
+
+background: #FFFFFF;
+border-radius: 14px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Lucide / Clock3 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 10px;
+top: 10px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 33.33%;
+top: 25%;
+bottom: 50%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 309px;
+height: 39px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Hari */
+
+width: 309px;
+height: 21px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height, or 131% */
+
+color: #123637;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Sesi */
+
+width: 309px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+color: #536B66;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 367px;
+height: 50px;
+left: 24px;
+top: 91px;
+
+
+
+/* Jam */
+
+width: 266px;
+height: 50px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 50px;
+/* identical to box height, or 125% */
+
+color: #123637;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Zona waktu */
+
+width: 48px;
+height: 40px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 40px;
+/* identical to box height, or 167% */
+
+color: #536B66;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Jadwal / Rabu, Kamis, Jumat */
+
+width: 425px;
+height: 180px;
+
+background: #E1F0E8;
+border-radius: 18px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 365px;
+height: 40px;
+left: 24px;
+top: 18px;
+
+
+
+/* Badge / Clock3 */
+
+width: 40px;
+height: 40px;
+
+background: #FFFFFF;
+border-radius: 14px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Lucide / Clock3 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 10px;
+top: 10px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 33.33%;
+top: 25%;
+bottom: 50%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 309px;
+height: 39px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Hari */
+
+width: 309px;
+height: 21px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height, or 131% */
+
+color: #123637;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Sesi */
+
+width: 309px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+color: #536B66;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 367px;
+height: 50px;
+left: 24px;
+top: 91px;
+
+
+
+/* Jam */
+
+width: 256px;
+height: 50px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 50px;
+/* identical to box height, or 125% */
+
+color: #123637;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Zona waktu */
+
+width: 48px;
+height: 40px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 40px;
+/* identical to box height, or 167% */
+
+color: #536B66;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Jadwal / Minggu */
+
+width: 270px;
+height: 180px;
+
+background: #D3E5DF;
+border-radius: 18px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 115px;
+height: 40px;
+left: 24px;
+top: 18px;
+
+
+
+/* Badge / CalendarDays */
+
+width: 40px;
+height: 40px;
+
+background: #FFFFFF;
+border-radius: 14px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Lucide / CalendarDays */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 10px;
+top: 10px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 66.67%;
+top: 8.33%;
+bottom: 75%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 66.67%;
+right: 33.33%;
+top: 8.33%;
+bottom: 75%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 16.67%;
+bottom: 8.33%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 41.67%;
+bottom: 58.33%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 66.63%;
+top: 58.33%;
+bottom: 41.67%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 49.96%;
+top: 58.33%;
+bottom: 41.67%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 66.67%;
+right: 33.29%;
+top: 58.33%;
+bottom: 41.67%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 66.63%;
+top: 75%;
+bottom: 25%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 49.96%;
+top: 75%;
+bottom: 25%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 66.67%;
+right: 33.29%;
+top: 75%;
+bottom: 25%;
+
+border: 1.33333px solid #006C65;
+
+
+/* Hari */
+
+width: 59px;
+height: 21px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height, or 131% */
+
+color: #123637;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Jam */
+
+position: absolute;
+width: 183px;
+height: 50px;
+left: 24px;
+top: 91px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 50px;
+/* identical to box height, or 125% */
+
+color: #123637;
+
+
+
+/* Konfirmasi kunjungan */
+
+position: absolute;
+width: 670px;
+height: 20px;
+left: 42px;
+top: 407px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+
+color: #D6EBE2;
+
+
+
+/* CTA / Hubungi praktik */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 18px 6px 6px;
+gap: 10px;
+
+position: absolute;
+width: 179px;
+height: 50px;
+left: 1001px;
+top: 393px;
+
+background: #DDF0AE;
+border-radius: 99px;
+
+
+/* Lingkaran ikon */
+
+width: 38px;
+height: 38px;
+
+background: #EAF5EE;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 10px;
+top: 10px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 26.32%;
+right: 26.32%;
+top: 26.32%;
+bottom: 26.32%;
+
+background: #006C65;
+
+
+/* Label tombol */
+
+width: 107px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: #123637;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Lokasi */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px 0px;
+
+width: 1440px;
+height: 640px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Lokasi / alamat dan patokan */
+
+width: 1440px;
+height: 592px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Eyebrow */
+
+position: absolute;
+width: 1232px;
+height: 16px;
+left: 104px;
+top: 42px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+letter-spacing: 1.35px;
+
+color: #276B61;
+
+
+
+/* Judul lokasi */
+
+position: absolute;
+width: 1232px;
+height: 53px;
+left: 104px;
+top: 69px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 43px;
+line-height: 53px;
+/* identical to box height, or 123% */
+letter-spacing: -1.45px;
+
+color: #123637;
+
+
+
+/* Kartu lokasi / Patokan Ar-Rahman Residence */
+
+position: absolute;
+width: 490px;
+height: 366px;
+left: 846px;
+top: 147px;
+
+background: linear-gradient(90deg, #0D4543 0%, #267260 100%);
+border-radius: 26px;
+
+
+/* Kontur lokasi luar */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 172px;
+height: 172px;
+left: 309px;
+top: 56px;
+
+border: 1px solid #569783;
+
+
+/* Kontur lokasi dalam */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 320px;
+top: 67px;
+
+border: 1px solid #74A891;
+
+
+/* Latar penanda patokan */
+
+position: absolute;
+width: 130px;
+height: 130px;
+left: 330px;
+top: 77px;
+
+background: #DCEFE1;
+box-shadow: 0px 10px 26px rgba(5, 51, 41, 0.15);
+
+
+/* Lucide / MapPin */
+
+position: absolute;
+width: 66px;
+height: 66px;
+left: 362px;
+top: 109px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 4.4px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 29.17%;
+bottom: 45.83%;
+
+border: 4.4px solid #006C65;
+
+
+/* Eyebrow */
+
+position: absolute;
+width: 432px;
+height: 16px;
+left: 29px;
+top: 31px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+letter-spacing: 1.35px;
+
+color: #DDF0AE;
+
+
+
+/* Patokan */
+
+position: absolute;
+width: 300px;
+height: 90px;
+left: 29px;
+top: 86px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 45px;
+/* or 112% */
+letter-spacing: -0.8px;
+
+color: #FFFFFF;
+
+
+
+/* Petunjuk */
+
+position: absolute;
+width: 400px;
+height: 22px;
+left: 29px;
+top: 197px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height, or 147% */
+
+color: #D9EDE4;
+
+
+
+/* CTA / Cari patokan di Maps */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 18px 6px 6px;
+gap: 10px;
+
+position: absolute;
+width: 213px;
+height: 50px;
+left: 29px;
+top: 270px;
+
+background: #DDF0AE;
+border-radius: 99px;
+
+
+/* Lingkaran ikon */
+
+width: 38px;
+height: 38px;
+
+background: #EAF5EE;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Lucide / ArrowUpRight */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 10px;
+top: 10px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 29.17%;
+bottom: 29.17%;
+
+border: 1.2px solid #0C4040;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 29.17%;
+bottom: 29.17%;
+
+border: 1.2px solid #0C4040;
+
+
+/* Label tombol */
+
+width: 141px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: #123637;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* image 1 */
+
+position: absolute;
+width: 490px;
+height: 466px;
+left: 0px;
+top: -87px;
+
+background: url(image.png);
+
+
+/* Kartu alamat praktik */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 726px;
+height: 366px;
+left: 104px;
+top: 147px;
+
+background: #F6F8F3;
+border: 1px solid #E6EEE6;
+border-radius: 26px;
+
+
+/* Badge / MapPin */
+
+position: absolute;
+width: 46px;
+height: 46px;
+left: 30px;
+top: 25px;
+
+background: #FFFFFF;
+border-radius: 16px;
+
+
+/* Lucide / MapPin */
+
+position: absolute;
+width: 23px;
+height: 23px;
+left: 12px;
+top: 12px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.53333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 29.17%;
+bottom: 45.83%;
+
+border: 1.53333px solid #006C65;
+
+
+/* Nama jalan */
+
+position: absolute;
+width: 666px;
+height: 35px;
+left: 30px;
+top: 84px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 35px;
+/* identical to box height, or 130% */
+letter-spacing: -0.5px;
+
+color: #123637;
+
+
+
+/* Alamat administratif */
+
+position: absolute;
+width: 666px;
+height: 42px;
+left: 30px;
+top: 127px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 21px;
+/* or 140% */
+
+color: #536B66;
+
+
+
+/* Patokan lokasi */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 666px;
+height: 58px;
+left: 30px;
+top: 190px;
+
+background: #FFFFFF;
+border: 1px solid #D7E6DE;
+border-radius: 14px;
+
+
+/* Badge / MapPin */
+
+position: absolute;
+width: 34px;
+height: 34px;
+left: 10px;
+top: 11px;
+
+background: #EAF5EE;
+border-radius: 12px;
+
+
+/* Lucide / MapPin */
+
+position: absolute;
+width: 17px;
+height: 17px;
+left: 9px;
+top: 9px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.13333px solid #006C65;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 29.17%;
+bottom: 45.83%;
+
+border: 1.13333px solid #006C65;
+
+
+/* Label patokan */
+
+position: absolute;
+width: 600px;
+height: 14px;
+left: 54px;
+top: 8px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 14px;
+/* identical to box height, or 156% */
+letter-spacing: 1.05px;
+
+color: #276B61;
+
+
+
+/* Nama patokan */
+
+position: absolute;
+width: 600px;
+height: 17px;
+left: 54px;
+top: 25px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height, or 121% */
+
+color: #123637;
+
+
+
+/* CTA / Cari di Google Maps */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 18px 6px 6px;
+gap: 10px;
+
+position: absolute;
+width: 208px;
+height: 50px;
+left: 30px;
+top: 280px;
+
+background: #0C4040;
+border-radius: 99px;
+
+
+/* Lingkaran ikon */
+
+width: 38px;
+height: 38px;
+
+background: #FFFFFF;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Lucide / ArrowUpRight */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 10px;
+top: 10px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 29.17%;
+bottom: 29.17%;
+
+border: 1.2px solid #0C4040;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 29.17%;
+bottom: 29.17%;
+
+border: 1.2px solid #0C4040;
+
+
+/* Label tombol */
+
+width: 136px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* CTA / Minta pin praktik */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 18px 6px 6px;
+gap: 10px;
+
+position: absolute;
+visibility: hidden;
+width: 186px;
+height: 52px;
+left: 248px;
+top: 280px;
+
+background: #FFFFFF;
+border: 1px solid #D7E6DE;
+border-radius: 99px;
+
+
+/* Lingkaran ikon */
+
+width: 38px;
+height: 38px;
+
+background: #EAF5EE;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Lucide / MessageCircle */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 10px;
+top: 10px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.2px solid #0C4040;
+
+
+/* Label tombol */
+
+width: 112px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: #123637;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1440px;
+height: 308px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Footer / Identitas, navigasi, dan kontak */
+
+width: 1440px;
+height: 308px;
+
+background: linear-gradient(90deg, #0C3738 0%, #0E534A 100%);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Kontur dekoratif */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 550px;
+height: 550px;
+left: 1120px;
+top: -210px;
+
+border: 1px solid #35665B;
+
+
+/* Kontur dekoratif 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 502px;
+height: 502px;
+left: 1144px;
+top: -186px;
+
+border: 1px solid #35665B;
+
+
+/* Identitas praktik */
+
+position: absolute;
+width: 410px;
+height: 48px;
+left: 104px;
+top: 137px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+color: #DAEBE2;
+
+
+
+/* Eyebrow */
+
+position: absolute;
+width: 250px;
+height: 20px;
+left: 619px;
+top: 43px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 1.35px;
+
+color: #DDF0AE;
+
+
+
+/* Eyebrow */
+
+position: absolute;
+width: 340px;
+height: 20px;
+left: 934px;
+top: 43px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 1.35px;
+
+color: #DDF0AE;
+
+
+
+/* Tautan / Layanan */
+
+position: absolute;
+width: 222px;
+height: 38px;
+left: 619px;
+top: 71px;
+
+
+
+/* Label */
+
+position: absolute;
+width: 222px;
+height: 20px;
+left: 0px;
+top: 9px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+
+color: #E0EEE6;
+
+
+
+/* Tautan / Jam praktik */
+
+position: absolute;
+width: 222px;
+height: 38px;
+left: 619px;
+top: 107px;
+
+
+
+/* Label */
+
+position: absolute;
+width: 222px;
+height: 20px;
+left: 0px;
+top: 9px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+
+color: #E0EEE6;
+
+
+
+/* Tautan / Lokasi */
+
+position: absolute;
+width: 222px;
+height: 38px;
+left: 619px;
+top: 143px;
+
+
+
+/* Label */
+
+position: absolute;
+width: 222px;
+height: 20px;
+left: 0px;
+top: 9px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+
+color: #E0EEE6;
+
+
+
+/* Tautan / 0851 9978 7307 */
+
+position: absolute;
+width: 315px;
+height: 38px;
+left: 934px;
+top: 71px;
+
+
+
+/* Group */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 0px;
+top: 10px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 94.29%;
+top: 26.32%;
+bottom: 26.32%;
+
+background: #FFFFFF;
+
+
+/* Label */
+
+position: absolute;
+width: 289px;
+height: 20px;
+left: 26px;
+top: 9px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+
+color: #E0EEE6;
+
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 198px;
+height: 20px;
+left: 934px;
+top: 118px;
+
+
+
+/* Group */
+
+width: 18px;
+height: 12.66px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 90.91%;
+top: 18.36%;
+bottom: 18.36%;
+
+background: #FFFFFF;
+
+
+/* Label */
+
+width: 172px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+
+color: #E0EEE6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* CTA / Hubungi via WhatsApp */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 13px 6px 6px;
+gap: 8px;
+
+position: absolute;
+visibility: hidden;
+width: 201px;
+height: 44px;
+left: 934px;
+top: 160px;
+
+background: #DDF0AE;
+border-radius: 99px;
+
+
+/* Lingkaran ikon */
+
+width: 32px;
+height: 32px;
+
+background: #EAF5EE;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Lucide / MessageCircle */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 8px;
+top: 8px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.06667px solid #0C4040;
+
+
+/* Label tombol */
+
+width: 142px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+
+color: #123637;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Pembatas footer */
+
+position: absolute;
+width: 1232px;
+height: 1px;
+left: 104px;
+top: 244px;
+
+background: #3D7063;
+
+
+/* Hak cipta */
+
+position: absolute;
+width: 440px;
+height: 18px;
+left: 104px;
+top: 263px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 138% */
+
+color: #C3DDCF;
+
+
+
+/* Tautan / Kembali ke atas */
+
+position: absolute;
+width: 161px;
+height: 40px;
+left: 1175px;
+top: 253px;
+
+
+
+/* Lucide / ArrowUpRight */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 139px;
+top: 12px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 29.17%;
+bottom: 29.17%;
+
+border: 1.06667px solid #BCE5D2;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 29.17%;
+bottom: 29.17%;
+
+border: 1.06667px solid #BCE5D2;
+
+
+/* Label */
+
+position: absolute;
+width: 139px;
+height: 19px;
+left: 0px;
+top: 10px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height, or 146% */
+
+color: #E0EEE6;
+
+
+
+/* Original logo image 2 1 */
+
+position: absolute;
+width: 234px;
+height: 98px;
+left: 104px;
+top: 34px;
+
+background: url(Original logo image 2.png);
