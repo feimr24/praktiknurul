@@ -22,7 +22,6 @@ const imgLucideStethoscope = "/assets/mobile-imgLucideStethoscope.svg";
 const imgLucideClipboardCheck = "/assets/desktop-imgLucideClipboardCheck.svg";
 const imgLucideClock3 = "/assets/mobile-imgLucideClock3.svg";
 const imgGroup = "/assets/desktop-imgGroup.svg";
-const imgFotoDrNurulIlmiRahmatullah = "/assets/mobile-imgFotoDrNurulIlmiRahmatullah.svg";
 const imgGarisHalo = "/assets/mobile-imgGarisHalo.svg";
 const imgHaloFoto = "/assets/mobile-imgHaloFoto.svg";
 const imgOriginalLogoImage21 = "/assets/desktop-imgOriginalLogoImage21.png";
@@ -54,7 +53,7 @@ export function Mobile() {
             <img alt="" className="f11" src={imgGarisHalo} />
           </div>
           <div className="f168" data-node-id="18:449" data-name="Foto asli • potongan siluet">
-            <div className="f169" data-node-id="18:452" style={{ maskImage: `url("${imgFotoDrNurulIlmiRahmatullah}")` }} data-name="Foto dr. Nurul Ilmi Rahmatullah">
+            <div className="f169" data-node-id="18:452" data-name="Foto dr. Nurul Ilmi Rahmatullah">
               <img alt="dr. Nurul Ilmi Rahmatullah" className="f15" src={imgFotoDrNurulIlmiRahmatullah1} />
             </div>
           </div>

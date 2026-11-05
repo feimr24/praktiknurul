@@ -26,7 +26,6 @@ const imgLucideMapPin = "/assets/desktop-imgLucideMapPin.svg";
 const imgLucideStethoscope = "/assets/desktop-imgLucideStethoscope.svg";
 const imgLucideClock3 = "/assets/desktop-imgLucideClock3.svg";
 const imgGroup = "/assets/desktop-imgGroup.svg";
-const imgFotoDrNurulIlmiRahmatullah = "/assets/desktop-imgFotoDrNurulIlmiRahmatullah.svg";
 const imgGarisHalo = "/assets/desktop-imgGarisHalo.svg";
 const imgHaloFoto = "/assets/desktop-imgHaloFoto.svg";
 const imgOriginalLogoImage21 = "/assets/desktop-imgOriginalLogoImage21.png";
@@ -63,7 +62,7 @@ export function Desktop() {
             <img alt="" className="f11" src={imgGarisHalo} />
           </div>
           <div className="f13" data-node-id="18:198" data-name="Foto asli • potongan siluet">
-            <div className="f14" data-node-id="18:201" style={{ maskImage: `url("${imgFotoDrNurulIlmiRahmatullah}")` }} data-name="Foto dr. Nurul Ilmi Rahmatullah">
+            <div className="f14" data-node-id="18:201" data-name="Foto dr. Nurul Ilmi Rahmatullah">
               <img alt="dr. Nurul Ilmi Rahmatullah" className="f15" src={imgFotoDrNurulIlmiRahmatullah1} />
             </div>
           </div>

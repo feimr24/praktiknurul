@@ -12,8 +12,8 @@
 .f10{position:absolute;left:764px;width:670px;height:670px;top:132px}
 .f11{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
 .f12{position:absolute;left:746px;width:698px;height:698px;top:114px}
-.f13{position:absolute;height:1881.6px;left:450px;overflow:clip;top:-448px;width:1253.91px}
-.f14{position:absolute;height:1881.6px;left:0;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-size:1253.91px 1881.6px;top:0;width:1253.91px}
+.f13{position:absolute;height:900px;left:795px;overflow:visible;top:40px;width:600px}
+.f14{position:absolute;inset:0}
 .f15{position:absolute;inset:0;max-width:none;object-fit:contain;pointer-events:none;width:100%;height:100%}
 .f16{position:absolute;background-color:#276b61;align-content:stretch;display:flex;align-items:center;justify-content:center;left:104px;padding-left:12px;padding-right:12px;padding-top:6px;padding-bottom:6px;border-radius:40px;top:45px}
 .f17{overflow-wrap:break-word;font-family:'Plus Jakarta Sans';font-weight:700;line-height:16px;position:relative;flex-shrink:0;color:#f8fbf8;font-size:12px;letter-spacing:1.35px;white-space:nowrap}
@@ -167,8 +167,8 @@
 .f165{--gradient-direction:to bottom;background-image:linear-gradient(var(--gradient-direction),var(--gradient-from),var(--gradient-via,var(--gradient-from)) var(--gradient-stop,0%),var(--gradient-to));--gradient-from:#fcfdfb;height:850px;overflow:clip;position:relative;flex-shrink:0;--gradient-to:#cde6dd;--gradient-via:#edf6ef;--gradient-stop:48%;width:390px}
 .f166{position:absolute;left:46px;width:348px;height:348px;top:438px}
 .f167{position:absolute;left:32px;width:376px;height:376px;top:424px}
-.f168{position:absolute;height:1049.6px;left:-168px;overflow:clip;top:161px;width:699.46px}
-.f169{position:absolute;height:1049.6px;left:0;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-size:699.46px 1049.6px;top:0;width:699.46px}
+.f168{position:absolute;height:630px;left:-15px;overflow:visible;top:420px;width:420px}
+.f169{position:absolute;inset:0}
 .f170{overflow-wrap:break-word;position:absolute;font-family:'Plus Jakarta Sans';font-weight:800;line-height:0;left:24px;color:#123637;font-size:38px;top:68px;letter-spacing:-1.4px;width:342px}
 .f171{line-height:43px;margin-bottom:0}
 .f172{line-height:43px}
